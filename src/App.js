@@ -1,8 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home.js";
 import Profile from "./pages/profile/Profile.js";
 import Login from "./pages/login/Login.js";
 import Register from "./pages/register/Register.js";
+
+
 
 function App() {
   return (

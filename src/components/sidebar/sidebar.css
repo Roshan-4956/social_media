@@ -1,0 +1,60 @@
+.sidebar {
+    flex: 3;
+    height: 90vh;
+    overflow-y: scroll;
+    position: sticky;
+    top: 10vh;
+}
+
+::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e6dddd;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(155, 149, 149);
+}
+
+.sidebarWrapper {
+    padding: 1rem;
+}
+
+.sidebarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarListItems {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.sidebarIcon {
+    margin-right: 1.5rem;
+}
+
+.sidebarButton {
+    width: 10rem;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sidebarHr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sidebarFriendList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
